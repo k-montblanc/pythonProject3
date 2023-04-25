@@ -12,5 +12,5 @@ user_params = {
     'notMinor': 'yes'
 }
 #create username
-# response = requests.post(url=PIXELA_ENDPOINT,json=user_params)
-# print(response.text)
+response = requests.post(url=PIXELA_ENDPOINT,json=user_params)
+print(response.text)
